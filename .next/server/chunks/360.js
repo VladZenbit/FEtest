@@ -1,0 +1,48 @@
+exports.id=360,exports.ids=[360],exports.modules={2323:(e,t,r)=>{"use strict";r.d(t,{N_:()=>c,pp:()=>p,Ao:()=>v});var i=r(8732),a=r(650),o=r.n(a),s=r(7719),n=r(2141),d=r(9009);let l=(0,s.Ay)(o())`
+  border-radius: 10px !important;
+  letter-spacing: 2px;
+  font-weight: ${d.IT.BOLD};
+  text-transform: ${d.Ms.CAPITALIZE};
+  flex-shrink: 0;
+  border-radius: 3px;
+  color: ${n.Jy.WHITE};
+  border: 1px solid ${n.Jy.WHITE};
+  padding: 15px 20px !important;
+  width: 150px;
+`;function c({text:e,icon:t,loading:r=!1,color:a="primary",onClick:o,type:s="button",disabled:n=!1,noBorderRadius:d=!1,size:c}){return(0,i.jsx)(l,{noborderradius:d,loading:r,variant:"outlined",onClick:e=>{e.stopPropagation(),o&&o()},disabled:n,endIcon:t,color:a,type:s,size:c,children:e})}let u=(0,s.Ay)(o())`
+  background-color: ${({secondary:e})=>e?n.Jy.SECONDARY:n.Jy.PRIMARY};
+  color: ${n.Jy.WHITE};
+  font-size: ${n.Z4.DEFAULT};
+  font-weight: ${n.IT.BOLD};
+  text-transform: capitalize;
+  letter-spacing: 1.25px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  min-width: 150px;
+  white-space: nowrap;
+
+  svg {
+    color: ${n.Jy.PRIMARY};
+  }
+
+  &.MuiCircularProgress {
+    color: ${n.Jy.PRIMARY};
+
+    svg {
+      color: ${n.Jy.PRIMARY};
+    }
+  }
+
+  &:hover {
+    background-color: ${({secondary:e})=>e?n.Jy.SECONDARY:n.Jy.PRIMARY};
+  }
+
+  &:disabled {
+    background-color: ${({secondary:e})=>e?n.Jy.SECONDARY:n.Jy.PRIMARY};
+    opacity: 0.8;
+
+    .MuiLoadingButton-loadingIndicator {
+      color: ${n.Jy.WHITE};
+    }
+  }
+`;function p({text:e,onClick:t,loading:r=!1,disabled:a=!1,secondary:o=!1,width:s="150px",type:n="button",sx:d}){return(0,i.jsx)(u,{loading:r,variant:"contained",secondary:o,onClick:e=>{e.stopPropagation(),t&&t()},disabled:r||a,type:n,sx:{width:s,...d},children:e})}var y=r(4601),A=r.n(y);function v({text:e,color:t="primary",onClick:r,type:a="button",disabled:o=!1,whiteSpace:s="nowrap",dataTestId:d}){return(0,i.jsx)(A(),{variant:"text",color:t,type:a,onClick:e=>{e.stopPropagation(),r&&r(e)},disabled:o,"data-testid":d,sx:{whiteSpace:s,textTransform:"none",color:n.Jy.WHITE,fontWeight:n.IT.BOLD},children:e})}},6027:(e,t,r)=>{"use strict";r.d(t,{A:()=>a});let i={auth:"/auth",user:"/user",movies:"/movies"},a={login:`${i.auth}/login`,userMovies:`${i.user}/movies`,movies:`${i.movies}`}},3876:(e,t,r)=>{"use strict";r.d(t,{A:()=>n});var i=r(8732);r(2015);var a=r(2598),o=r.n(a),s=r(2141);function n({children:e}){return(0,i.jsxs)(o(),{sx:{background:s.Jy.BACKGROUND,minHeight:"100vh",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column",padding:"80px 0 150px",position:"relative"},children:[e,(0,i.jsx)("img",{src:"/waves.png",alt:"footer ui",width:"100%",style:{position:"absolute",bottom:0,left:0,zIndex:1,objectFit:"contain"}})]})}},9009:(e,t,r)=>{"use strict";r.d(t,{IT:()=>i,Ms:()=>o,Z4:()=>a});var i=function(e){return e[e.REGULAR=400]="REGULAR",e[e.MEDIUM=500]="MEDIUM",e[e.SEMI_BOLD=600]="SEMI_BOLD",e[e.BOLD=700]="BOLD",e[e.EXTRA_BOLD=800]="EXTRA_BOLD",e[e.HEAVY=900]="HEAVY",e}({}),a=function(e){return e.XX_LARGE="32px",e.X_LARGE="26px",e.LARGE="64px",e.MEDIUM="48px",e.PREMEDIUM="24px",e.PREMEDIUM_2="20px",e.DEFAULT="16px",e.SMALL="14px",e.EXTRA_SMALL="13px",e}({}),o=function(e){return e.NONE="none",e.CAPITALIZE="capitalize",e.UPPERCASE="uppercase",e.LOWERCASE="lowercase",e}({})},2141:(e,t,r)=>{"use strict";r.d(t,{Jy:()=>a,Z4:()=>s.Z4,IT:()=>s.IT,w4:()=>n});var i=function(e){return e.PRIMARY="#2BD17E",e.SECONDARY="#0F1F33",e.BACKGROUND="#093545",e.INPUT="#224957",e.CARD="#092C39",e.ERROR="#EB5757",e.WHITE="#FFFFFF",e}(i||{});let a=i;var o=r(1391),s=r(9009);let n=(0,o.A)({palette:{primary:{main:a.PRIMARY},secondary:{main:a.SECONDARY},error:{main:a.ERROR}},typography:{fontFamily:"Montserrat,Arial,sans-serif",h1:{fontSize:s.Z4.LARGE,color:a.WHITE},h2:{fontSize:s.Z4.MEDIUM,color:a.WHITE},h3:{fontSize:s.Z4.PREMEDIUM},body1:{fontSize:s.Z4.PREMEDIUM_2},body2:{fontSize:s.Z4.SMALL},subtitle1:{fontSize:s.Z4.EXTRA_SMALL}}})},4034:(e,t,r)=>{"use strict";r.d(t,{$:()=>i});let i={apiUrl:"http://ec2-34-234-86-144.compute-1.amazonaws.com"}},1503:(e,t,r)=>{"use strict";r.a(e,async(e,t)=>{try{var i=r(7843),a=r(3977),o=r(1683),s=e([i,a]);[i,a]=s.then?(await s)():s;let n={en:{translation:o.en}};a.default.use(i.initReactI18next).init({resources:n,lng:"en",fallbackLng:"en",interpolation:{escapeValue:!1}}),t()}catch(e){t(e)}})},1683:(e,t,r)=>{"use strict";r.d(t,{en:()=>i});let i=JSON.parse('{"common":{"loading":"Loading...","noData":"No data found","error":"Something went wrong, please try again later","name":"Name","surname":"Surname","invalidEmail":"Invalid email","emailRequired":"Email is required","passwordRequired":"Password is required","edit":"Edit","createMovie":"Create a new movie","submit":"Submit","cancel":"Cancel","movieCreated":"Movie created successfully","movieUpdated":"Movie updated successfully","movieCreatedDelete":"Error creating movie","movieUpdatedDelete":"Error updating movie"},"login":{"mainText":"Sign in","btn":"Login","loginSuccess":"Login successful","loginFailed":"Login failed"},"dashboard":{"title":"My Movies","noMovies":"Your movie list is empty"}}')},7954:(e,t,r)=>{"use strict";r.a(e,async(e,i)=>{try{r.r(t),r.d(t,{default:()=>h});var a=r(8732),o=r(7843),s=r(4062),n=r(4391),d=r(9250),l=r(9595),c=r(276),u=r(3977),p=r(3876),y=r(2141),A=r(7660);r(4467);var v=r(1503);r(8364);var m=e([o,s,n,u,A,v]);[o,s,n,u,A,v]=m.then?(await m)():m;let h=function({Component:e,pageProps:t}){return(0,a.jsx)(s.Provider,{store:A.M,children:(0,a.jsx)(d.A,{theme:y.w4,children:(0,a.jsx)(o.I18nextProvider,{i18n:u.default,children:(0,a.jsxs)(l.LocalizationProvider,{dateAdapter:c.AdapterDayjs,children:[(0,a.jsx)(n.ToastContainer,{}),(0,a.jsx)(p.A,{children:(0,a.jsx)(e,{...t})})]})})})})};i()}catch(e){i(e)}})},3212:(e,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>o});var i=r(8732),a=r(883);function o(){return(0,i.jsxs)(a.Html,{lang:"en",children:[(0,i.jsx)(a.Head,{}),(0,i.jsxs)("body",{children:[(0,i.jsx)(a.Main,{}),(0,i.jsx)(a.NextScript,{})]})]})}},5470:(e,t,r)=>{"use strict";r.d(t,{w:()=>i.A});var i=r(322)},322:(e,t,r)=>{"use strict";r.d(t,{A:()=>a});var i=function(e){return e.DASHBOARD="/dashboard",e.LOGIN="/login",e.CREATE_MOVIE="/create-movie",e.EDIT_MOVIE="/edit-movie",e.NOT_FOUND="*",e}(i||{});let a=i},8309:(e,t,r)=>{"use strict";r.d(t,{A:()=>i});let i=(e,{getState:t})=>{let r=t().authState.token?.token;return r&&e.set("Authorization",`Bearer ${r}`),e}},2162:(e,t,r)=>{"use strict";r.d(t,{A:()=>i});let i={getItem:e=>Promise.resolve(null),setItem:(e,t)=>Promise.resolve(),removeItem:e=>Promise.resolve()}},4476:(e,t,r)=>{"use strict";r.a(e,async(e,i)=>{try{r.d(t,{Ay:()=>c,Ho:()=>n,WG:()=>d});var a=r(9198),o=e([a]);a=(o.then?(await o)():o)[0];let s=(0,a.createSlice)({name:"authSlice",initialState:{user:null,token:null},reducers:{clearState(e){e.token=null,e.user=null},setToken:(e,t)=>{e.token=t.payload},setUser:(e,t)=>{e.user=t.payload}}}),{clearState:n,setToken:d,setUser:l}=s.actions,c=s.reducer;i()}catch(e){i(e)}})},2335:(e,t,r)=>{"use strict";r.a(e,async(e,i)=>{try{r.d(t,{Z:()=>c,_:()=>u});var a=r(5861),o=r(6027),s=r(4034),n=r(8309),d=e([a]);a=(d.then?(await d)():d)[0];let{apiUrl:l}=s.$,c=(0,a.createApi)({reducerPath:"authApi",baseQuery:(0,a.fetchBaseQuery)({baseUrl:l,prepareHeaders:n.A}),endpoints:e=>({login:e.mutation({query:e=>({url:o.A.login,method:"POST",body:e})})})}),{useLoginMutation:u}=c;i()}catch(e){i(e)}})},3964:(e,t,r)=>{"use strict";r.a(e,async(e,i)=>{try{r.d(t,{d1:()=>y,ik:()=>A,lM:()=>u,qy:()=>p});var a=r(5861),o=r(6027),s=r(4034),n=r(8309),d=r(9193),l=e([a,d]);[a,d]=l.then?(await l)():l;let{apiUrl:c}=s.$,u=(0,a.createApi)({reducerPath:"movieApi",baseQuery:(0,a.fetchBaseQuery)({baseUrl:c,prepareHeaders:n.A}),tagTypes:["Movie"],endpoints:e=>({getMovieById:e.query({query:e=>`${o.A.movies}/${e}`,providesTags:["Movie"]}),createMovie:e.mutation({query:e=>({url:o.A.movies,method:"POST",body:e}),onQueryStarted:(e,t)=>{t.queryFulfilled.then(()=>{t.dispatch(d.i.util.invalidateTags(["UserMovies"]))})}}),updateMovie:e.mutation({query:({id:e,formData:t})=>({url:`${o.A.movies}/${e}`,method:"PATCH",body:t}),onQueryStarted:(e,t)=>{t.queryFulfilled.then(()=>{t.dispatch(d.i.util.invalidateTags(["UserMovies"]))})},invalidatesTags:["Movie"]})})}),{useGetMovieByIdQuery:p,useCreateMovieMutation:y,useUpdateMovieMutation:A}=u;i()}catch(e){i(e)}})},9193:(e,t,r)=>{"use strict";r.a(e,async(e,i)=>{try{r.d(t,{A:()=>u,i:()=>c});var a=r(5861),o=r(6027),s=r(4034),n=r(8309),d=e([a]);a=(d.then?(await d)():d)[0];let{apiUrl:l}=s.$,c=(0,a.createApi)({reducerPath:"userApi",baseQuery:(0,a.fetchBaseQuery)({baseUrl:l,prepareHeaders:n.A}),tagTypes:["UserMovies"],endpoints:e=>({getUserMovies:e.query({query:()=>({url:o.A.userMovies,method:"GET"}),providesTags:["UserMovies"]})})}),{useGetUserMoviesQuery:u}=c;i()}catch(e){i(e)}})},7660:(e,t,r)=>{"use strict";r.a(e,async(e,i)=>{try{r.d(t,{M:()=>v});var a=r(9198),o=r(8853),s=r(3787),n=r(2162),d=r(4476),l=r(2335),c=r(3964),u=r(9193),p=e([a,o,d,l,c,u]);[a,o,d,l,c,u]=p.then?(await p)():p;let y={key:"auth",storage:n.A,whitelist:["user","token"]},A=(0,s.persistReducer)(y,d.Ay),v=(0,a.configureStore)({reducer:{[l.Z.reducerPath]:l.Z.reducer,[u.i.reducerPath]:u.i.reducer,[c.lM.reducerPath]:c.lM.reducer,authState:A},middleware:e=>e({serializableCheck:{ignoredActions:[s.FLUSH,s.REHYDRATE,s.PAUSE,s.PERSIST,s.PURGE,s.REGISTER]}}).concat(l.Z.middleware,u.i.middleware,c.lM.middleware)});(0,s.persistStore)(v),(0,o.setupListeners)(v.dispatch),i()}catch(e){i(e)}})},8364:()=>{}};

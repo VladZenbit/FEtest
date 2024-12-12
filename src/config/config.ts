@@ -1,3 +1,3 @@
 export const config = {
-  apiUrl: process.env.NEXT_PUBLIC_SERVER_API_URL
+  apiUrl: 'http://ec2-34-234-86-144.compute-1.amazonaws.com'
 };
